@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<style type="text/css">
+		.background{
+		width:700px;
+		height:500px;
+		background-color:#3A389E;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		justify-content:space-between;
+		flex-direction:column-reverse;
+		
+		
+		}
+		
+		.detailspersonnages{
+		width:350px;
+		height:100px;
+		display:flex;
+		align-items:center;
+		justify-content:space-around;
+		background-color:#9A389E;
+		
+		}
+		
+		.perso{
+		border:2px solid white;
+		height:70px;
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
+
+		}
+		
+		.image{
+		width:700px;
+		height:250px;
+		background-color:#0A089E;
+		display:flex;
+		flex-direction:row;
+		justify-content:space-around;
+		
+		
+		}
+		.imagemonstre{
+		display:flex;
+		align-items:center;
+		justify-content:space-around;
+		background-color:#5A389E;
+		flex-direction:column;
+		}
+		
+		.monstre{
+		border:2px solid white;
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
+
+		}
+		
+		.imagehero{
+		display:flex;
+		align-items:center;
+		justify-content:space-around;
+		background-color:#5A389E;
+		flex-direction:column;
+		}
+		
+		.hero{
+		border:2px solid white;
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
+		}
+		
+		.actions{
+		border:2px solid white;
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
+		align-self:flex-start;
+		flex-direction:column;
+		}
+		
+		#attaque:hover{
+		font-weight:bold;
+		color:white;}
+		
+		#defense:hover{
+		font-weight:bold;
+		color:white;}
+		
+		#magie:hover{
+		font-weight:bold;
+		color:white;}
+		
+		#items:hover{
+		font-weight:bold;
+		color:white;}
+		
+		#infomonstre1{
+		display:none;}
+		
+		.monstre1:hover{
+		display:#infomonstre1;}
+		
+		
+		</style>
+</head>
+<body>
+	<div class=background>
+	
+		<div class=detailspersonnages>
+			<div class=perso>
+			perso1 </br>100pv </br>100mana </br>
+			</div>
+			<div class=perso>
+			perso2 </br>50pv </br>70mana
+			</div>
+			<div class=perso>
+			perso3 </br>120pv </br>40mana
+			</div>
+			<div class=perso>
+			perso4</br> 80pv</br> 140mana
+			</div>
+			
+			
+			
+		</div>
+		
+		<div class=image>
+			<div class=imagemonstre>
+				<div class=monstre>
+				monstre 1</br>
+				</div>
+				<div class=monstre>
+				monstre 2</br>
+				</div>
+				<div class=monstre>
+				monstre 3</br>
+				</div>
+			</div>
+
+			<div class=imagehero>
+				<div class=hero>
+				perso1</br>
+				</div>
+				<div class=hero>
+				perso2</br>
+				</div>
+				<div class=hero>
+				perso3</br>
+				</div>
+				<div class=hero>
+				perso4</br>
+				</div>
+			</div>
+		</div>
+		
+		<div class=actions>
+			<div id=attaque>Attaque</br></div> 
+			<div id=defense>Defense</br></div>
+			<div id=magie>Magie</br></div> 
+			<div id=items>Items</br></div>
+			</div>
+		
+		<div class=infomonstre>
+			<div id=infomonstre1> 412pv/500pv</div>
+			
+		</div>
+	</div>
+</body>
